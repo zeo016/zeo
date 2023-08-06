@@ -1,0 +1,707 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+//screen 1000 to 1400
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    $zone1 : rgba(22, 22, 22, 89%);
+    #navfull{
+        // background-color: $zone1;
+        height: 110%;
+        width: 100%;
+        z-index: 34;
+
+    }
+    .navleft{
+        background-color: rgb(22, 22, 22);
+        width: 20%;
+        height: 100%;
+        z-index: 3;
+        margin-left: 6%;
+        position: absolute;
+    }
+    .nav1{
+        width: 100%;
+        height: 13rem;
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 29%;
+    }
+    .nav1 h1{
+        color: rgb(109, 47, 47);
+        padding-left: 32%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav1 h3{
+        color: white;
+        padding-left: 33%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav1 h2{
+        color: white;
+        padding-left: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav2{
+        text-align: left;
+        margin-top: -35%;
+    }
+    .nav2 ul li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 130%;
+        padding-top: 12%;
+        padding-left: 20%;
+        cursor: pointer;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav2 ul li:hover{
+        color: rgb(104, 36, 36);
+        transition: 300ms;
+    }
+    .navright img{
+        width: 100%;
+        height: 100%;
+        z-index: 22;
+        background-size: cover;
+        object-fit: cover;
+    }    
+    .navcont{
+        color: rgb(141, 54, 54);
+        margin-top: -45%;
+        margin-left: 20%;
+        z-index: 4;
+    }
+    .navcont h1{
+        font-size: 230%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont h3{
+        font-size: 210%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont button{
+        width: 13%;
+        height: 3.2rem;
+        margin-top: 3%;
+        font-size: 130%;
+        background-color: rgb(75, 50, 50);
+        border: none;
+        cursor: pointer;
+        color: rgb(228, 228, 228);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont button:hover{
+        background-color: rgb(107, 0, 0,70%);
+        border-radius: 10%;
+        transition: 1000ms;
+
+    }
+    .typo2{
+        margin-left: 39%;
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 15ch;
+        font-size: 210%;
+
+        animation: typing 2s steps(15),
+        blink .5s infinite step-end alternate;
+        overflow:hidden;
+    }
+    @keyframes typing{
+        from {width: 0 }
+    }
+    @keyframes blink{
+        50% { border-color: transparent }
+    }
+    .reds{
+        display: flex;
+        padding-top: 18%;
+        padding-left: 17%;
+        margin-bottom: 40%;
+    }
+    .reds div{
+        font-size: 150%;
+        padding-left: 10%;
+    }
+    .reds div a{
+        color: rgb(129, 39, 39);
+    }
+    .reds div a:hover{
+        color: rgb(162, 206, 218);
+        transition: 900ms;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    $zone2 :  rgb(104, 36, 36);
+
+    #aboutcont{
+        height: 37rem;
+    }
+    .awea{
+        position: fixed;
+        background-color: black;
+        z-index: 11;
+        width: 100%;
+        height: 14%;
+        opacity: 0;
+    }
+    #navbar2{
+        background-color: black;
+    }
+    .navbar2{
+        z-index: 10;
+        margin-top: -37%;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(26, 25, 25);
+        display: flex;
+    }
+    .log1{
+        padding-top: -15%;
+        margin-left: -80%;
+    }
+    .log1 h1{
+        font-size: 150%;
+        margin-top: 0.2%;
+        color: white;
+    }
+    .log1 h2{
+        font-size: 120%;
+        color: $zone2;
+        margin-top: -0.7%;
+    }
+    .nb2{
+        margin-top: -6%;
+        padding-left: 39%;
+        z-index: 54;
+    }
+    .nb2 ul{
+        display: flex;
+        list-style: none;
+        padding-left: 12%;
+    }
+    .nb2 ul li{
+        padding-top: 1.5rem;
+        padding-left: 1.8rem;
+        padding-right: 0.6rem;
+        font-size: 120%;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .nb2 ul li:hover{
+        color: $zone2;
+        transition: 300ms;
+    }
+}
+
+//screen 1400 to 2000
+@media screen and (min-width: 1400px) and (max-width: 2000px){
+    $zone1 : rgba(22, 22, 22, 89%);
+    *{
+        margin: 0%;
+    }
+    body{
+        width: 100;
+        margin: 0%;
+        padding: 0%;
+    }
+    #navfull{
+        // object-fit: cover;
+        // background-color: $zone1;
+        width: 100%;
+        height: 110%;
+        // display: flex;
+    }
+    .navleft{
+        background-color: rgb(22, 22, 22);
+        width: 17%;
+        height: 100%;
+        z-index: 3;
+        margin-left: 6%;
+        position: absolute;
+    }
+    .nav1{
+        width: 100%;
+        height: 10rem;
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 29%;
+    }
+    .nav1 h1{
+        color: rgb(109, 47, 47);
+        padding-left: 35%;
+        font-size: 230%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav1 h3{
+        color: white;
+        font-size: 230%;
+        padding-left: 26%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav1 h2{
+        font-size: 230%;
+        color: white;
+        padding-left: 10%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav2{
+        text-align: left;
+        margin-top: -5%;
+    }
+    .nav2 ul li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 170%;
+        padding-top: 12%;
+        padding-left: 20%;
+        cursor: pointer;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav2 ul li:hover{
+        color: rgb(104, 36, 36);
+        transition: 300ms;
+    }
+    .navright img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        z-index: 2;
+        background-size: cover;
+    }    
+    .navcont{
+        color: rgb(255, 168, 168);
+        margin-top: -38%;
+        margin-left: 20%;
+        z-index: 4;
+    }
+    .navcont h1{
+        font-size: 330%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont h3{
+        font-size: 310%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont button{
+        width: 13%;
+        height: 3.2rem;
+        margin-top: 3%;
+        font-size: 170%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: rgb(228, 228, 228);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont button:hover{
+        background-color: rgb(107, 0, 0,70%);
+        border-radius: 10%;
+        transition: 1000ms;
+
+    }
+    .typo2{
+        margin-left: 39%;
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 15ch;
+        font-size: 210%;
+
+        animation: typing 2s steps(15),
+        blink .5s infinite step-end alternate;
+        overflow:hidden;
+    }
+    @keyframes typing{
+        from {width: 0 }
+    }
+    @keyframes blink{
+        50% { border-color: transparent }
+    }
+    .reds{
+        display: flex;
+        padding-top: 18%;
+        padding-left: 17%;
+    }
+    .reds div{
+        font-size: 180%;
+        padding-left: 10%;
+    }
+    .reds div a{
+        color: rgb(129, 39, 39);
+    }
+    .reds div a:hover{
+        color: rgb(162, 206, 218);
+        transition: 900ms;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 2000px){
+    $zone2 :  rgb(104, 36, 36);
+
+    #aboutcont{
+        height: 37%;
+    }
+    .awea{
+        position: fixed;
+        background-color: black;
+        z-index: 11;
+        width: 100%;
+        height: 14%;
+        opacity: 0;
+        // margin-top: -31%;
+    }
+    #navbar2{
+        background-color: black;
+    }
+    .navbar2{
+        z-index: 10;
+        margin-top: -35%;
+        // position: absolute;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(26, 25, 25);
+        display: flex;
+    }
+    .log1{
+        padding-top: 1.6%;
+        margin-left: -80%;
+    }
+    .log1 h1{
+        font-size: 150%;
+        color: white;
+    }
+    .log1 h2{
+        font-size: 120%;
+        color: $zone2;
+    }
+    .nb2{
+        margin-top: -4%;
+        padding-left: 45%;
+        z-index: 44;
+    }
+    .nb2 ul{
+        display: flex;
+        list-style: none;
+        padding-left: 12%;
+    }
+    .nb2 ul li{
+        padding-top: 1.5rem;
+        padding-left: 1.8rem;
+        padding-right: 0.6rem;
+        font-size: 120%;
+        color: white;
+        cursor: pointer;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .nb2 ul li:hover{
+        color: $zone2;
+        transition: 300ms;
+    }
+}
+
+//phone 
+
+@media screen and (min-width: 100px) and (max-width: 1000px){
+    $zone1 : rgba(22, 22, 22, 89%);
+    $zone2 :  rgb(104, 36, 36);
+
+    *{
+        margin: 0%;
+    }
+    body{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    #navfull{
+        object-fit: cover;
+        // background-color: $zone1;
+        width: 100%;
+        height: 184%;
+        display: flex;
+    }
+    .navleft{
+        background-color: rgb(22, 22, 22);
+        width: 13%;
+        height: 200%;
+        z-index: 3;
+        margin-left: 1%;
+        display: none;
+    }
+    .nav1{
+        width: 100%;
+        height: 10rem;
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 29%;
+    }
+    .nav1 h1{
+        color: rgb(109, 47, 47);
+        padding-left: 32%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav1 h3{
+        color: white;
+        padding-left: 33%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav1 h2{
+        color: white;
+        padding-left: 20%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav2{
+        text-align: left;
+        margin-top: -5%;
+    }
+    .nav2 ul li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 130%;
+        padding-top: 12%;
+        padding-left: 20%;
+        cursor: pointer;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav2 ul li:hover{
+        color: rgb(104, 36, 36);
+        transition: 300ms;
+    }
+
+    .navright img{
+        width: 100%;
+        height: 300%;
+        margin-left: 0%;
+        margin-top: 0%;
+        filter: blur(1px);
+        z-index: 2;
+        // background-size: cover;
+        // object-fit: none;
+        padding-bottom: 10%;
+    }    
+    .navcont{
+        color: rgb(85, 15, 15);
+        margin-top: -137%;
+        z-index: 4;
+        position: absolute;
+        margin-left: 10%;
+    }
+    .navcont h1{
+        font-size: 270%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont h3{
+        font-size: 210%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont button{
+        width: 53%;
+        height: 3.2rem;
+        margin-top: 3%;
+        font-size: 170%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: rgb(228, 228, 228);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navcont button:hover{
+        background-color: rgb(107, 0, 0,70%);
+        border-radius: 10%;
+        transition: 1000ms;
+
+    }
+    .typo2{
+        margin-left: 12%;
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        border-right: 4px solid;
+        width: 15ch;
+        font-size: 210%;
+
+        animation: typing 2s steps(15),
+        blink .5s infinite step-end alternate;
+        overflow:hidden;
+    }
+    @keyframes typing{
+        from {width: 0 }
+    }
+    @keyframes blink{
+        50% { border-color: transparent }
+    }
+    .reds{
+        display: flex;
+        padding-top: 18%;
+        padding-left: 17%;
+    }
+    .reds div{
+        font-size: 150%;
+        padding-left: 10%;
+    }
+    .reds div a{
+        color: rgb(129, 39, 39);
+    }
+    .reds div a:hover{
+        color: rgb(162, 206, 218);
+        transition: 900ms;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 1000px){
+    $zone2 :  rgb(104, 36, 36);
+
+    #aboutcont{
+        height: 37%;
+        display: none;
+    }
+    .awea{
+        // display: none;
+        position: fixed;
+        background-color: black;
+        z-index: 58;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        margin-top: -41%;
+    }
+    #navbar2{
+        background-color: black;
+    }
+    .navbar2{
+        z-index: 10;
+        margin-top: -20%;
+        // position: absolute;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(26, 25, 25);
+        display:inline;
+    }
+    .log1{
+        padding-top: 20%;
+        margin-left: 0%;
+    }
+    .log1 h1{
+        font-size: 250%;
+        color: white;
+    }
+    .log1 h2{
+        font-size: 220%;
+        color: $zone2;
+    }
+    .nb2{
+        margin-top: -4%;
+        padding-left: -45%;
+        z-index: 44;
+    }
+    .nb2 ul{
+        display: inline;
+        list-style: none;
+    }
+    .nb2 ul li{
+        padding-top: 1.5rem;
+        padding-left: -40%;
+        padding-right: 0.6rem;
+        font-size: 220%;
+        color: white;
+        cursor: pointer;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .nb2 ul li:hover{
+        color: $zone2;
+        transition: 300ms;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 1000px){
+    $zone2 :  rgb(104, 36, 36);
+
+    #aboutconte{
+        height: 37%;
+        // display: none;
+    }
+    .aweae{
+        // display: none;
+        position: fixed;
+        background-color: black;
+        z-index: 68;
+        width: 100%;
+        height: 110%;
+        margin-top: -71%;
+        margin-left: 0%;
+        transition: 1000ms;
+        opacity: 1;
+    }
+    .active{
+        transition: 1000ms;
+        margin-left: -100%;
+        opacity: 0;
+        // display: none;
+    }
+    #navbar2e{
+        background-color: black;
+    }
+    .navbar2e{
+        z-index: 10;
+        margin-top: -20%;
+        // position: absolute;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(26, 25, 25);
+        display:inline;
+    }
+    .log1e{
+        padding-top: 20%;
+        margin-left: 0%;
+    }
+    .log1e h1{
+        font-size: 250%;
+        color: white;
+    }
+    .log1e h2{
+        font-size: 220%;
+        color: $zone2;
+    }
+    .nb2e{
+        margin-top: 5%;
+        padding-left: -45%;
+        z-index: 44;
+    }
+    .nb2e ul{
+        display: inline;
+        list-style: none;
+    }
+    .nb2e ul li{
+        padding-top: 2.5rem;
+        padding-left: -40%;
+        padding-right: 0.6rem;
+        font-size: 220%;
+        color: white;
+        cursor: pointer;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .nb2e ul li:hover{
+        color: $zone2;
+        transition: 300ms;
+    }
+    .botmenu{
+        position: fixed;
+        z-index: 70;
+        font-size: 200%;
+        margin-left: 79%;
+        margin-top: -75%;
+        background-color: rgba(99, 0, 0, 0.815);
+        width: 15%;
+        padding-bottom: 1%;
+    }
+    
+}
